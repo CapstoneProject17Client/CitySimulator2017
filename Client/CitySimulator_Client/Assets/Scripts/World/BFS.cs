@@ -273,7 +273,7 @@ public class BFS {
 	/// </summary>
 	/// <returns>The number.</returns>
 	/// <param name="textMesh">Text mesh.</param>
-	IList<int> findNumber(string textMesh) {
+	public IList<int> findNumber(string textMesh) {
 		IList<int> points = new List<int> ();
 		char[] delimiterChars = { '{', ',', ' ' , '(', ')' };
 
